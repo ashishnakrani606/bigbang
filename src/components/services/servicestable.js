@@ -39,13 +39,13 @@ const ServicesTable = ({ TableRow, handleChange, selected }) => {
           <td className="flex items-center px-3 py-2">         
             <ul className="flex items-center">
               <li className="w-full z-10 hover:z-[60] border rounded-full border-black/10">
-               <Image src={servicesRowData.client1} className="w-6 h-6" alt=""/>
+               <Image src={servicesRowData.clientPayOne} className="w-6 h-6" alt=""/>
               </li>
               <li className="-ml-[6px] w-full z-50 hover:z-[99] border rounded-full border-black/10">               
-              <Image src={servicesRowData.client2} className={`w-full h-6 `} alt=""/>
+              <Image src={servicesRowData.clientPayTwo} className={`w-full h-6 `} alt=""/>
               </li>
               <li className={`-ml-[6px]  w-full z-50 hover:z-[60] border rounded-full border-black/10 ${servicesRowData.clienticon}`}>              
-               <Image src={servicesRowData.client3} className={`w-full h-6 ${servicesRowData.clientimage}`} alt=""/>
+               <Image src={servicesRowData.clientPayThree} className={`w-full h-6 ${servicesRowData.clientimage}`} alt=""/>
               </li>
             </ul>           
             <p className={`rounded-2xl bg-primary-purple -ml-2 z-50 flex items-center leading-normal justify-center w-6 h-6 dark:text-blacklight ${servicesRowData.clientStyle}`}>{servicesRowData.clientCount}</p>

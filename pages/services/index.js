@@ -12,9 +12,9 @@ import CheckBox from "@/components/ui/CheckBox";
 import Layout from "@/layouts/layout";
 import ServicesTable  from "@/components/services/servicestable";
 import Dropdown from "@/components/ui/Dropdown";
-import Client1 from "@/assets/images/img/client1.png"; 
-import Client2 from "@/assets/images/img/Client2.png"; 
-import Client3 from "@/assets/images/img/client3.png"; 
+import ClientOne from "@/assets/images/img/clientone.png"; 
+import ClientTwo from "@/assets/images/img/Clienttwo.png"; 
+import ClientThree from "@/assets/images/img/clientthree.png"; 
 
 const TableRow = [
   {
@@ -22,9 +22,9 @@ const TableRow = [
     name: "active1",
     serviceName:"Electricity Bill",
     totalPaymentPerMonth:"₹ 4,40,000 + GST",
-    client1: Client1,
-    client2: Client2,
-    client3: Client3,
+    clientPayOne: ClientOne,
+    clientPayTwo: ClientTwo,
+    clientPayThree: ClientThree,
     clientCount:"+12",
   },
   {
@@ -34,9 +34,10 @@ const TableRow = [
     totalPaymentPerMonth:"₹ 40,000 + GST",
     clientimage:"hidden pointer-events-none",
     clientStyle:"!-ml-[8px]",
-    client2: Client3,
-    client1: Client3,
-    client2: Client3,
+    clientPayTwo: ClientThree,
+    clientPayOne: ClientThree,
+    clientPayOne: ClientThree,
+    clientPayThree: ClientThree,
     clienticon:"hidden",
     clientCount:"+2",
   },

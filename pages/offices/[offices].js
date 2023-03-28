@@ -6,7 +6,7 @@ import InputContent from "@/components/ui/InputContent";
 import Layout from "@/layouts/layout";
 import Modal from "@/components/ui/Modal";
 import VarientDropdown from "@/components/ui/SelectOption";
-import DatePicker from "@/components/ui/DatePicker";
+import DAtePicker from "@/components/ui/DatePicker";
 
 const Office = () => {
   return (
@@ -186,10 +186,10 @@ const Office = () => {
                 </span>
               </InputContent>
               <InputContent title={"Start date"} titlestyle={"mb-1"}>
-                <DatePicker placeholder={"Pick a date"}></DatePicker>
+                <DAtePicker placeholder={"Pick a date"}></DAtePicker>
               </InputContent>
               <InputContent title={"Lock in Till Date"} titlestyle={"mb-1"}>
-                <DatePicker placeholder={"Pick a date"}></DatePicker>
+                <DAtePicker placeholder={"Pick a date"}></DAtePicker>
               </InputContent>
               <div className="border-y border-black/5 flex-wrap dark:border-white/5 py-[18px] gap-4 flex justify-end items-center">
                 <Button
