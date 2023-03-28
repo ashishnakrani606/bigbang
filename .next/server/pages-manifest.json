@@ -1,0 +1,11 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/invoices": "pages/invoices.js",
+  "/online-leads": "pages/online-leads.js",
+  "/clients": "pages/clients.js",
+  "/rent-calendar": "pages/rent-calendar.js",
+  "/walk-in-leads": "pages/walk-in-leads.js",
+  "/expenses": "pages/expenses.js"
+}
