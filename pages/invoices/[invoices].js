@@ -18,7 +18,7 @@ import RegionDropdown from "@/components/ui/CountryStateDropdown/RegionDropdown"
 import { COUNTRY_CODE } from "@/../appConstants";
 import CountryDropdown from "@/components/ui/CountryStateDropdown/CountryDropdown";
 import IputeEmail from "@/components/ui/inputEmail";
-import DAtePicker from "@/components/ui/DAtePicker";
+import DAtePicker from "@/components/ui/DatePicker";
 
 const Invoices = () => {
   const [selectedCountry, setSelectedCountry] = useState("India");
